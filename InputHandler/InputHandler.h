@@ -4,9 +4,12 @@
 #include <iostream>
 #include <map>
 #include <map>
+#include "../Validator/Validator.h"
 using namespace std;
 
 class InputHandler{
+    private:
+        Validator validator;
     public:
         int getBoardSize();
         int getNoOfPlayers();
